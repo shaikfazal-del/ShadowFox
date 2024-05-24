@@ -29,7 +29,7 @@ The IPL Website is a comprehensive web platform built to cater to cricket enthus
 
 ## Demo
 
-[Live Demo](https://your-demo-link.com)
+[Live Demo](https://6650e0e634c0685ac477a0c9--dashing-valkyrie-16cfdb.netlify.app/)
 
 [Include a link to a live demo of your project, if available.]
 
