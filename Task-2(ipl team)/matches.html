@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches</title>
+    <link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style-matches.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <header>
+        <nav id="desktop-view">
+            <img src="/images/srh-logo.gif" height="130px" width="130px" alt="srh-logo" id="srh-logo">
+            <ul id="desktop-ul">
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="matches.html" target="_blank">Matches</a></li>
+                <li><a href="players.html" target="_blank">The Risers</a></li>
+                <li><a href="news.html" target="_blank">News</a></li>
+            </ul>
+        </nav>
+        <nav id="moblie-view">
+            <ul id="moblie-view-flex">
+                <li><img src="/images/srh-logo.gif" height="140px" width="140px" alt=""></li>
+                <li><img src="/images/menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" height="100px" width="100px"
+                        onclick="toggleMenu()" alt="">
+                </li>
+            </ul>
+        </nav>
+        <nav id="nav">
+        </nav>
+    </header>
+    <!-- banner of the team -->
+    <div class="banner-srh">
+        <img src="/images/banner.jpg" id="srh-banner" height="100%" width="100%">
+    </div>
+    <!-- matches -->
+    <!-- 1 -->
+    <div class="flex-match-list">
+        <div data-aos="fade-up">
+            <p id="heading-score-board">Matches</p>
+            <div data-aos="fade-up">
+                <div class="flex-score-board">
+                    <div class="score-borad">
+                        <div class="date-time">
+                            <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg"
+                                    alt="">
+                                <p>Sunday
+                                    26th May 2024</p>
+                            </div>
+                            <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                <p>07:30 PM</p>
+                            </div>
+                        </div>
+                        <div class="scores">
+                            <div class="srh-scores">
+                                <p id="team-big">Sunrisers Hyderabad</p>
+                                <!-- <p id="bold">175/9</p>
+                                <p id="bold">(20) ov</p> -->
+                            </div>
+                            <img src="/images/teams-logo/SRH.png" height="80px" width="80px" alt="">
+                            <p id="bigger-vs">v/s</p>
+                            <div class="other-team">
+                                <p id="team-big">Kolkata Knight Riders</p>
+                                <!-- <p id="bold">139/7</p>
+                                <p id="bold">(20)ov</p> -->
+                            </div>
+                            <img src="/images/teams-logo/KKR.png" height="80px" width="80px" alt="">
+                        </div>
+                        <div class="match-result">
+                            <p>(Finals🎉)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up">
+                <div class="flex-score-board">
+                    <div class="score-borad">
+                        <div class="date-time">
+                            <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg"
+                                    alt="">
+                                <p>Friday
+                                    24th May 2024</p>
+                            </div>
+                            <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                <p>07:30 PM</p>
+                            </div>
+                        </div>
+                        <div class="scores">
+                            <div class="srh-scores">
+                                <p id="team-big">Sunrisers Hyderabad</p>
+                                <p id="bold">175/9</p>
+                                <p id="bold">(20) ov</p>
+                            </div>
+                            <img src="/images/teams-logo/SRH.png" height="80px" width="80px" alt="">
+                            <p id="bigger-vs">v/s</p>
+                            <div class="other-team">
+                                <p id="team-big">Rajasthan Royals</p>
+                                <p id="bold">139/7</p>
+                                <p id="bold">(20)ov</p>
+                            </div>
+                            <img src="/images/teams-logo/RR.png" height="80px" width="80px" alt="">
+                        </div>
+                        <div class="match-result">
+                            <p>Sunrisers Hyderabad won by 36 runs (Made way to Finals🎉)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-score-board">
+                <div class="score-borad">
+                    <div class="date-time">
+                        <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Tuesday
+                                21st May 2024</p>
+                        </div>
+                        <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>07:30 PM</p>
+                        </div>
+                    </div>
+                    <div class="scores">
+                        <div class="srh-scores">
+                            <p id="team-big">Sunrisers Hyderabad</p>
+                            <p>159/10</p>
+                            <p>(19.3 ) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/SRH.png" height="80px" width="80px" alt="">
+                        <p id="bigger-vs">v/s</p>
+                        <div class="other-team">
+                            <p id="team-big">Kolkata Knight Riders</p>
+                            <p>164 / 2</p>
+                            <p>(13.4) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/KKR.png" height="80px" width="80px" alt="">
+                    </div>
+                    <div class="match-result">
+                        <p>Kolkata Knight Riders won by 8 wickets (with 38 balls remaining)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div data-aos="fade-up">
+            <!-- <p id="heading-score-board">previous </p> -->
+            <div class="flex-score-board">
+                <div class="score-borad">
+                    <div class="date-time">
+                        <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Sunday
+                                19th May 2024</p>
+                        </div>
+                        <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>03:30 PM</p>
+                        </div>
+                    </div>
+                    <div class="scores">
+                        <div class="srh-scores">
+                            <p id="team-big">Sunrisers Hyderabad</p>
+                            <p>215/6</p>
+                            <p>(19.1 ) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/SRH.png" height="80px" width="80px" alt="">
+                        <p id="bigger-vs">v/s</p>
+                        <div class="other-team">
+                            <p id="team-big">punjab kings</p>
+                            <p>214 / 5</p>
+                            <p>(20) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/PK.png" height="80px" width="80px" alt="">
+                    </div>
+                    <div class="match-result">
+                        <p>Sunrisers Hyderabad won by 4 wickets (with 5balls remaining)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div data-aos="fade-up">
+            <!-- <p id="heading-score-board">previous </p> -->
+            <div class="flex-score-board">
+                <div class="score-borad">
+                    <div class="date-time">
+                        <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Thursday
+                                16th May 2024</p>
+                        </div>
+                        <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>07:30 PM</p>
+                        </div>
+                    </div>
+                    <div class="scores">
+                        <div class="srh-scores">
+                            <p id="team-big">Sunrisers Hyderabad</p>
+                            <!-- <p>159/10</p>
+                            <p>(19.3 ) ov</p> -->
+                        </div>
+                        <img src="/images/teams-logo/SRH.png" height="80px" width="80px" alt="">
+                        <p id="bigger-vs">v/s</p>
+                        <div class="other-team">
+                            <p id="team-big">Gujarat Titans</p>
+                            <!-- <p>164 / 2</p>
+                            <p>(13.4) ov</p> -->
+                        </div>
+                        <img src="/images/teams-logo/GT.png" height="80px" width="80px" alt="">
+                    </div>
+                    <div class="match-result">
+                        <p>Match abandoned without a ball bowled</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 4 -->
+        <div data-aos="fade-up">
+            <!-- <p id="heading-score-board">previous </p> -->
+            <div class="flex-score-board">
+                <div class="score-borad">
+                    <div class="date-time">
+                        <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Wednesday
+                                8th May 2024</p>
+                        </div>
+                        <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>07:30 PM</p>
+                        </div>
+                    </div>
+                    <div class="scores">
+                        <div class="srh-scores">
+                            <p id="team-big">Sunrisers Hyderabad</p>
+                            <p>167/0</p>
+                            <p>(9.4 ) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/LSG.png" height="80px" width="80px" alt="">
+                        <p id="bigger-vs">v/s</p>
+                        <div class="other-team">
+                            <p id="team-big">Lucknow Super Giants</p>
+                            <p>165 / 4</p>
+                            <p>(20) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/KKR.png" height="80px" width="80px" alt="">
+                    </div>
+                    <div class="match-result">
+                        <p>Sunrisers Hyderabad won by 10 wickets (with 62 balls remaining)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 5 -->
+        <div data-aos="fade-up">
+            <!-- <p id="heading-score-board">previous </p> -->
+            <div class="flex-score-board">
+                <div class="score-borad">
+                    <div class="date-time">
+                        <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Monday
+                                6th May 2024</p>
+                        </div>
+                        <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>07:30 PM</p>
+                        </div>
+                    </div>
+                    <div class="scores">
+                        <div class="srh-scores">
+                            <p id="team-big">Sunrisers Hyderabad</p>
+                            <p>173/8</p>
+                            <p>(20) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/SRH.png" height="80px" width="80px" alt="">
+                        <p id="bigger-vs">v/s</p>
+                        <div class="other-team">
+                            <p id="team-big">Mumbai Indians</p>
+                            <p>174 / 3</p>
+                            <p>(17.2) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/MI.png " height="80px" width="80px" alt="">
+                    </div>
+                    <div class="match-result">
+                        <p>Mumbai Indians won by 7 wickets (with 16 balls remaining)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 6 -->
+        <div data-aos="fade-up">
+            <!-- <p id="heading-score-board">previous </p> -->
+            <div class="flex-score-board">
+                <div class="score-borad">
+                    <div class="date-time">
+                        <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Thursday
+                                2nd May 2024</p>
+                        </div>
+                        <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>07:30 PM</p>
+                        </div>
+                    </div>
+                    <div class="scores">
+                        <div class="srh-scores">
+                            <p id="team-big">Sunrisers Hyderabad</p>
+                            <p>201/3</p>
+                            <p>(20) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/SRH.png" height="80px" width="80px" alt="">
+                        <p id="bigger-vs">v/s</p>
+                        <div class="other-team">
+                            <p id="team-big">Rajasthan Royals</p>
+                            <p>200/7</p>
+                            <p>(200) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/RR.png" height="80px" width="80px" alt="">
+                    </div>
+                    <div class="match-result">
+                        <p>Sunrisers Hyderabad won by 1 run</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 7 -->
+        <div data-aos="fade-up">
+            <!-- <p id="heading-score-board">previous </p> -->
+            <div class="flex-score-board">
+                <div class="score-borad">
+                    <div class="date-time">
+                        <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Sunday
+                                28th April 2024</p>
+                        </div>
+                        <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>07:30 PM</p>
+                        </div>
+                    </div>
+                    <div class="scores">
+                        <div class="srh-scores">
+                            <p id="team-big">Sunrisers Hyderabad</p>
+                            <p>134/10</p>
+                            <p>(18.5 ) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/SRH.png" height="80px" width="80px" alt="">
+                        <p id="bigger-vs">v/s</p>
+                        <div class="other-team">
+                            <p id="team-big">Chennai Super Kings</p>
+                            <p>212/3</p>
+                            <p>(20) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/CSK.png" height="80px" width="80px" alt="">
+                    </div>
+                    <div class="match-result">
+                        <p>Chennai Super Kings won by 78 runs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 8 -->
+        <div data-aos="fade-up">
+            <!-- <p id="heading-score-board">previous </p> -->
+            <div class="flex-score-board">
+                <div class="score-borad">
+                    <div class="date-time">
+                        <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Thursday
+                                25th April 2024</p>
+                        </div>
+                        <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>07:30 PM</p>
+                        </div>
+                    </div>
+                    <div class="scores">
+                        <div class="srh-scores">
+                            <p id="team-big">Sunrisers Hyderabad</p>
+                            <p>171/8</p>
+                            <p>(20) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/SRH.png" height="80px" width="80px" alt="">
+                        <p id="bigger-vs">v/s</p>
+                        <div class="other-team">
+                            <p id="team-big">Royal challenges Bengaluru</p>
+                            <p>206/7</p>
+                            <p>(20) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/RCB.png" height="80px" width="80px" alt="">
+                    </div>
+                    <div class="match-result">
+                        <p>Royal challenges Bengaluru won by 35 runs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 9 -->
+        <div data-aos="fade-up">
+            <!-- <p id="heading-score-board">previous </p> -->
+            <div class="flex-score-board">
+                <div class="score-borad">
+                    <div class="date-time">
+                        <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Saturday
+                                20th April 2024</p>
+                        </div>
+                        <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>07:30 PM</p>
+                        </div>
+                    </div>
+                    <div class="scores">
+                        <div class="srh-scores">
+                            <p id="team-big">Sunrisers Hyderabad</p>
+                            <p>266/7</p>
+                            <p>(20) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/SRH.png" height="80px" width="80px" alt="">
+                        <p id="bigger-vs">v/s</p>
+                        <div class="other-team">
+                            <p id="team-big">Delhi Capitals</p>
+                            <p>199/10</p>
+                            <p>(19.1) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/DC.png" height="80px" width="80px" alt="">
+                    </div>
+                    <div class="match-result">
+                        <p>Sunrisers Hyderabad won by 67 runs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 10 -->
+        <div data-aos="fade-up">
+            <!-- <p id="heading-score-board">previous </p> -->
+            <div class="flex-score-board">
+                <div class="score-borad">
+                    <div class="date-time">
+                        <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>Monday
+                                15th April 2024</p>
+                        </div>
+                        <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                            <p>07:30 PM</p>
+                        </div>
+                    </div>
+                    <div class="scores">
+                        <div class="srh-scores">
+                            <p id="team-big">Sunrisers Hyderabad</p>
+                            <p>287/3</p>
+                            <p>(20) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/SRH.png" height="80px" width="80px" alt="">
+                        <p id="bigger-vs">v/s</p>
+                        <div class="other-team">
+                            <p id="team-big">Royal challenges Bengaluru</p>
+                            <p>262/7</p>
+                            <p>(20) ov</p>
+                        </div>
+                        <img src="/images/teams-logo/RCB.png" height="80px" width="80px" alt="">
+                    </div>
+                    <div class="match-result">
+                        <p>Sunrisers Hyderabad won by 25 runs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper-1">
+            <div class="quick-links">
+                <ul id="footer-links">
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="matches.html" target="_blank">Matches</a></li>
+                    <li><a href="players.html" target="_blank">The Risers</a></li>
+                    <li><a href="news.html" target="_blank">News</a></li>
+                </ul>
+            </div>
+            <div class="news-settler">
+                <p style="margin: 10px;">SUBSCRIBE TO OUR NEWSLETTER</p>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+                <button id="matches-btn"><a href="players.html">Send</a></button>
+            </div>
+            <div class="follow">
+                <p style="margin: 10px;">FOLLOW US ON</p>
+                <ul id="flex-follow">
+                    <li><a href="https://www.facebook.com/sunrisershyderabad" target="_blank"><img
+                                src="/images/facebook.png" alt="" height="20px" width="20px"></a></li>
+                    <li><a href="https://x.com/sunrisers"><img src="/images/twitter.png" alt="" height="20px"
+                                width="20px"></a></li>
+                    <li><a href="https://www.instagram.com/SunrisersHYD/"><img src="/images/instagram (1).png" alt=""
+                                height="20px" width="20px"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="logic.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

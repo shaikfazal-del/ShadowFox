@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunRisers Hyderabad</title>
+    <link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <header>
+        <nav id="desktop-view">
+            <img src="/images/srh-logo.gif" height="130px" width="130px" alt="srh-logo" id="srh-logo">
+            <ul id="desktop-ul">
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="matches.html" target="_blank">Matches</a></li>
+                <li><a href="players.html" target="_blank">The Risers</a></li>
+                <li><a href="news.html" target="_blank">News</a></li>
+            </ul>
+        </nav>
+        <!-- mobile view-->
+        <nav id="moblie-view">
+            <ul id="moblie-view-flex">
+                <li><img src="/images/srh-logo.gif" height="140px" width="140px" alt=""></li>
+                <li><img src="/images/menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" height="100px" width="100px"
+                        onclick="toggleMenu()" alt="">
+                </li>
+            </ul>
+        </nav>
+        <nav id="nav">
+        </nav>
+    </header>
+    <!-- banner of the team -->
+    <div class="banner-srh">
+        <img src="/images/banner.jpg" id="srh-banner" style="height: 100%;width: 100%;">
+    </div>
+
+    <!-- points table -->
+    <div data-aos="fade-up">
+        <div class="ipl-table">
+            <table id="points-table">
+                <caption>IPL Points Table</caption>
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Team</th>
+                        <th>PLD</th>
+                        <th>Won</th>
+                        <th>Lost</th>
+                        <th>Tied</th>
+                        <th>PTS</th>
+                        <th>NRR</th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td id="flex-team-img"><img src="/images/teams-logo/KKR.png" height="30px" width="30px"
+                                alt="KKR.png">KKR</td>
+                        <td>14</td>
+                        <td>9</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>20</td>
+                        <td>1.428</td>
+                    </tr>
+                    <tr>
+                        <td id=srh-color>2</td>
+                        <td id=srh-color id="flex-team-img"><img src="/images/teams-logo/SRH.png" height="30px"
+                                width="30px" alt="KKR.png">SRH</td>
+                        <td id=srh-color>14</td>
+                        <td id=srh-color>8</td>
+                        <td id=srh-color>5</td>
+                        <td id=srh-color>1</td>
+                        <td id=srh-color>17</td>
+                        <td id=srh-color>0.414</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td id="flex-team-img"><img src="/images/teams-logo/RR.png" height="30px" width="30px"
+                                alt="KKR.png">RR</td>
+                        <td>14</td>
+                        <td>8</td>
+                        <td>5</td>
+                        <td>1</td>
+                        <td>17</td>
+                        <td>0.273</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td id="flex-team-img"><img src="/images/teams-logo/RCB.png" height="30px" width="30px"
+                                alt="KKR.png">RCB</td>
+                        <td>14</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>1</td>
+                        <td>14</td>
+                        <td>0.459</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td id="flex-team-img"><img src="/images/teams-logo/CSK.png" height="30px" width="30px"
+                                alt="KKR.png">CSK</td>
+                        <td>14</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>0</td>
+                        <td>14</td>
+                        <td>0.392</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td id="flex-team-img"><img src="/images/teams-logo/DC.png" height="30px" width="30px"
+                                alt="KKR.png">DC</td>
+                        <td>14</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>0</td>
+                        <td>14</td>
+                        <td>-0.377</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td id="flex-team-img"><img src="/images/teams-logo/LSG.png" height="30px" width="30px"
+                                alt="KKR.png">LSG</td>
+                        <td>14</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>0</td>
+                        <td>14</td>
+                        <td>-0.667</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td id="flex-team-img"><img src="/images/teams-logo/GT.png" height="30px" width="30px"
+                                alt="KKR.png">GT</td>
+                        <td>14</td>
+                        <td>5</td>
+                        <td>7</td>
+                        <td>2</td>
+                        <td>12</td>
+                        <td>-1.063</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td id="flex-team-img"><img src="/images/teams-logo/PK.png" height="30px" width="30px"
+                                alt="KKR.png">PBKS</td>
+                        <td>14</td>
+                        <td>5</td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td>10</td>
+                        <td>-0.353</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td id="flex-team-img"><img src="/images/teams-logo/MI.png" height="30px" width="30px"
+                                alt="KKR.png">MI</td>
+                        <td>14</td>
+                        <td>4</td>
+                        <td>10</td>
+                        <td>0</td>
+                        <td>8</td>
+                        <td>-0.318</td>
+                    </tr>
+                </tbody>
+                </thead>
+            </table>
+        </div>
+    </div>
+    </div>
+    <!-- matches -->
+    <div data-aos="fade-up">
+        <p id="heading-score-board">Matches</p>
+        <div class="flex-score-board">
+            <div class="score-borad">
+                <div class="date-time">
+                    <div class="date"><img src="/images/calendar_month_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                        <p>Friday
+                            24th May 2024</p>
+                    </div>
+                    <div class="time"><img src="/images/schedule_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                        <p>07:30 PM</p>
+                    </div>
+                </div>
+                <div class="scores">
+                    <div class="srh-scores">
+                        <p id="team-big">Sunrisers Hyderabad</p>
+                        <p id="bold">175/9</p>
+                        <p id="bold">(20) ov</p>
+                    </div>
+                    <img src="/images/teams-logo/SRH.png" height="80px" width="80px" alt="">
+                    <p id="bigger-vs">v/s</p>
+                    <div class="other-team">
+                        <p id="team-big">Rajasthan Royals</p>
+                        <p id="bold">139/7</p>
+                        <p id="bold">(20)ov</p>
+                    </div>
+                    <img src="/images/teams-logo/RR.png" height="80px" width="80px" alt="">
+                </div>
+                <div class="match-result">
+                    <p>Sunrisers Hyderabad won by 36 runs (Made way to Finals🎉)</p>
+                </div>
+            </div>
+            <button id="matches-btn"><a href="matches.html">View All matches</a></button>
+        </div>
+    </div>
+    <!-- player view -->
+    <div data-aos="fade-up">
+        <div class="the-risers">
+            <p style="text-align: center;font-size: 2rem;font-weight: 600;">The
+                <span style="color:#F05C22 ;">R</span>isers
+            </p>
+            <div class="flex-show-case">
+                <div class="player-show-case">
+                    <div class="img-slider">
+                        <img src="/images/players/ABDULSAMAD-1.png">
+                        <img src="/images/players/ABHISHEK SHARMA-04.png">
+                        <img src="/images/players/AIDEN MARKRAM-94.png">
+                        <img src="/images/players/AKASH SINGH-26.png">
+                        <img src="/images/players/ANMOL PREEET SINGH-00.png">
+                        <img src="/images/players/BHUBNESHWAR KUMAR-15.png">
+                        <img src="/images/players/GLENN PHILLIPS-6.png">
+                        <img src="/images/players/HEINRICH KLAASEN-00.png">
+                        <img src="/images/players/MAYANK AGRAWAL-16.png">
+                        <img src="/images/players/PAT CUMMINS-30.png">
+                        <img src="/images/players/NITISH KUMAR REDDY-08.png">
+                        <img src="/images/players/T.NATARAJAN-44.png">
+                        <img src="/images/players/TRAVIS HEAD-62.png">
+                        <img src="/images/players/UMRAN MALIK-24.png">
+                        <img src="/images/players/WASHINGTON SUNDAR-5.png">
+                    </div>
+                    <div class="img-slider">
+                        <img src="/images/players/ABDULSAMAD-1.png">
+                        <img src="/images/players/ABHISHEK SHARMA-04.png">
+                        <img src="/images/players/AIDEN MARKRAM-94.png">
+                        <img src="/images/players/AKASH SINGH-26.png">
+                        <img src="/images/players/ANMOL PREEET SINGH-00.png">
+                        <img src="/images/players/BHUBNESHWAR KUMAR-15.png">
+                        <img src="/images/players/GLENN PHILLIPS-6.png">
+                        <img src="/images/players/HEINRICH KLAASEN-00.png">
+                        <img src="/images/players/MAYANK AGRAWAL-16.png">
+                        <img src="/images/players/PAT CUMMINS-30.png">
+                        <img src="/images/players/NITISH KUMAR REDDY-08.png">
+                        <img src="/images/players/T.NATARAJAN-44.png">
+                        <img src="/images/players/TRAVIS HEAD-62.png">
+                        <img src="/images/players/UMRAN MALIK-24.png">
+                        <img src="/images/players/WASHINGTON SUNDAR-5.png">
+                    </div>
+                </div>
+                <button id="matches-btn"><a href="players.html">View All Players</a></button>
+            </div>
+        </div>
+    </div>
+    <!-- news of the srh -->
+    <div data-aos="fade-up">
+        <div class="flex-news-box">
+            <p style="font-size: 2rem;font-weight: bold;color:black;">News</p>
+            <div class="news-box">
+                <div class="new-1 news-temp">
+                    <img src="/images/new-2.jpeg" height="200px" width="300px">
+                    <p style="font-weight: bolder; padding: 10px;">KKR vs SRH IPL 2024 Qualifier 1 Highlights:
+                        Venkatesh, Shreyas help
+                        Kolkata beat Hyderabad by 8
+                        wickets to reach final</p><br><br>
+                    <p>KKR vs SRH: Catch the score, updates and highlights from Kolkata Knight Riders vs Sunrisers
+                        Hyderabad
+                        IPL 2024 Qualifier 1 match played at the Narendra Modi Stadium in Ahmedabad.</p>
+                </div>
+                <div class="new-2 news-temp">
+                    <img src="/images/new-3.jpg" alt="" height="200px" width="300px">
+                    <p style="font-weight: bolder;">
+                        See you in the finals: Abhishek Sharma's sister uplifts SRH opener after loss vs KKR
+                    </p><br><br>
+                    <p>IPL 2024: Abhishek Sharma's sister posted a heart-felt message on Instagram after SRH's 8-wicket
+                        loss
+                        against KKR in Qualifier 1. She wished luck to Abhishek after his rare failure and hoped for him
+                        to
+                        come back strong in the next game.</p>
+                </div>
+                <div class="new-3 news-temp">
+                    <img src="/images/news-4.avif" height="200px" width="300px">
+                    <p style="font-weight: bolder;">IPL 2024: SRH opener Travis Head speaks about white ball success and
+                        self-awareness</p><br><br>
+                    <p>Travis Head's unconventional batting style and raw honesty have defined his success in IPL 2024
+                        with
+                        Sunrisers Hyderabad. Embracing his aggressive approach and self-awareness, Head reflects on his
+                        journey, challenges with spin, and the philosophy behind his cricketing mindset.</p>
+                </div>
+            </div>
+            <button id="matches-btn"><a href="news.html">View More</a></button>
+        </div>
+    </div>
+    <div data-aos="fade-up">
+        <div class="sponsers-flex">
+            <div class="title-sponsor">
+                <p>TITLE SPONSOR</p>
+                <img src="/images/DREAM-11.png" alt="">
+            </div>
+            <div class="principal-sponsor">
+                <p>PRINCIPAL SPONSORS</p>
+                <div class="flex-sponsor-img">
+                    <img src="/images/BKT.png" alt="">
+                    <img src="/images/KUHL.png" alt="">
+                    <img src="/images/JIO.png" alt="">
+                    <img src="images/ARUN.png" alt="">
+                </div>
+            </div>
+            <div class="other-sponsor">
+                <p>OTHER SPONSORS</p>
+                <div class="flex-sponsor-img">
+                    <img src="/images/PHILIPS.png" alt="">
+                    <img src="/images/CENTUARY.png" alt="">
+                </div>
+            </div>
+            <div class="other-partners">
+                <p>OUR PARTNERS</p>
+                <div class="flex-sponsor-img">
+                    <img src="/images/WROGN.png" alt="">
+                    <img src="/images/FANCODE.png" alt="">
+                    <img src="/images/BIGANT.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper-1">
+            <div class="quick-links">
+                <ul id="footer-links">
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="matches.html" target="_blank">Matches</a></li>
+                    <li><a href="players.html" target="_blank">The Risers</a></li>
+                    <li><a href="news.html" target="_blank">News</a></li>
+                </ul>
+            </div>
+            <div class="news-settler">
+                <p style="margin: 10px;">SUBSCRIBE TO OUR NEWSLETTER</p>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+                <button id="matches-btn"><a href="players.html">Send</a></button>
+            </div>
+            <div class="follow">
+                <p style="margin: 10px;">FOLLOW US ON</p>
+                <ul id="flex-follow">
+                    <li><a href="https://www.facebook.com/sunrisershyderabad" target="_blank"><img
+                                src="/images/facebook.png" alt="" height="20px" width="20px"></a></li>
+                    <li><a href="https://x.com/sunrisers"><img src="/images/twitter.png" alt="" height="20px"
+                                width="20px"></a></li>
+                    <li><a href="https://www.instagram.com/SunrisersHYD/"><img src="/images/instagram (1).png" alt=""
+                                height="20px" width="20px"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="logic.js"></script>
+</body>
+
+</html>

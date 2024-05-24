@@ -1,0 +1,106 @@
+header {
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+
+.flex-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30vh;
+}
+
+.flex-row-batter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+
+}
+
+.flex-batters {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-flex-batters {
+    display: flex;
+    align-items: center;
+}
+
+#bg-adding {
+    background-image: url("/images/team_player_bg.jpg");
+}
+
+
+.name-plate-postion {
+    position: relative;
+}
+
+.name-plate {
+    height: 80px;
+    width: 250px;
+    background-color: #F05C22;
+    position: absolute;
+    bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+
+}
+
+.name-plate-postion:hover .name-plate {
+    opacity: 1;
+    visibility: visible;
+    filter: grayscale(0);
+}
+
+.flex-row-baller {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.flex-baller {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flex-allrounder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+
+}
+
+.flex-row-allrounders {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
