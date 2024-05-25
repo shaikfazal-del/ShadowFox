@@ -14,7 +14,7 @@ This portfolio showcases my skills in frontend development, cybersecurity, and P
 
 ### Description
 
-The SRH IPL Team Website provides cricket enthusiasts with real-time updates, player showcases, and engaging news content related to the Sunrisers Hyderabad IPL cricket team. The site offers live scores, match schedules, team standings, player profiles, and news updates.
+The SRH IPL Team Website provides cricket enthusiasts with player showcases, and engaging news content related to the Sunrisers Hyderabad IPL cricket team. The site offers live scores, match schedules, team standings, player profiles, and news updates.
 
 ### Demo
 
